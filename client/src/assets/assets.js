@@ -13,6 +13,11 @@ import course_1_thumbnail from './course_1.png'
 import course_2_thumbnail from './course_2.png'
 import course_3_thumbnail from './course_3.png'
 import course_4_thumbnail from './course_4.png'
+import asian from './asiannotes.png'
+import struggle from './struggle.png'
+import test from './test.png'
+import teach from './teach.png'
+
 import star from './rating_star.svg'
 import star_blank from './star_dull_icon.svg'
 import profile_img_1 from './profile_img_1.png'
@@ -45,6 +50,10 @@ import lesson_icon from './lesson_icon.svg'
 
 
 export const assets = {
+    teach,
+    test,
+    struggle,
+    asian,
     logo,
     search_icon,
     sketch,

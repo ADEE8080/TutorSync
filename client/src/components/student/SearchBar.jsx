@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { assets } from "../../assets/assets";
 import { useNavigate } from "react-router-dom";
 
-const SearchBar = ({data}) => {
+const SearchBar = ({ data }) => {
   const navigate = useNavigate();
-  const [input, setInput] = useState(data ? data : '')
+  const [input, setInput] = useState(data ? data : "");
   const onSearchHandler = (e) => {
     e.preventDefault();
-    navigate('/course-list/' + input);
+    navigate("/course-list/" + input);
   };
 
   return (
@@ -29,7 +29,7 @@ const SearchBar = ({data}) => {
       />
       <button
         type="submit"
-        className="bg-orange-600 rounded text-white md:px-10 px-7 md:py-3 py-2 mx-1"
+        className="bg-black rounded text-white md:px-10 px-7 md:py-3 py-2 mx-1"
       >
         Search
       </button>

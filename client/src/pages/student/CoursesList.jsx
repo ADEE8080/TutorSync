@@ -29,7 +29,7 @@ const CoursesList = () => {
 
   return (
     <>
-    <div className="bg-gradient-to-b from-orange-200 to-pink-300 relative md:px-36 px-8 pt-20 text-left">
+    <div className="bg-transparent relative md:px-36 px-8 pt-20 text-left">
       <div className='flex md:flex-row flex-col gap-6 items-start
       justify-between w-full'>
         <div>
